@@ -1,0 +1,49 @@
+.page-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr th {
+    width: 100px;
+    border: 1px solid black;
+    text-align: center !important;
+}
+
+tbody tr td, .pagination, h1 {
+    text-align: center;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
